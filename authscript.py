@@ -28,8 +28,6 @@ def get_access_token(email, password):
 email = sys.argv[1]
 password = sys.argv[2]
 
-print email
-print password
 try:
     access_token = get_access_token(email, password)
     print(access_token)
